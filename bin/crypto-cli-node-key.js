@@ -3,7 +3,7 @@ const key = require('../commands/key');
 
 program
     .command('set')
-    .description('Set API key -- Get help at https://nomics.com')
+    .description('Set API key -- Get help at https://rapidapi.com')
     .action(key.set);
 
     program
