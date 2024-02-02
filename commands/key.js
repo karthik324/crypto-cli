@@ -26,7 +26,7 @@ const key = {
       console.log("Curr API key is ", key.yellow);
       return key;
     } catch (e) {
-      console.log("Error", e);
+      // console.log("Error", e);
     }
   },
   remove() {
@@ -36,7 +36,7 @@ const key = {
       console.log("Key Removed".bgMagenta);
       return key;
     } catch (e) {
-      console.log("Error", e.red);
+      // console.log("Error", e);
     }
   },
 };

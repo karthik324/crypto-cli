@@ -10,7 +10,7 @@ const check = {
       const priceOutputData = await api.getCoinData(cmd.asset);
       console.log(priceOutputData);
     } catch (error) {
-      console.error(error);
+      // console.error(error);
     }
   },
 };
